@@ -9,7 +9,8 @@ import java.util.StringTokenizer;
 // 주어진 데이터를 중복해서 사용할 수 있는지 구분 필요 (동전과 유사)
 public class A05배낭문제 {
     // 평범한 배낭 : 백준
-    /*public static void main(String[] args) throws IOException {
+    // 바깥에 배낭 배열 빼기 & 무게는 안쪽으로 넣기 => 하나씩 들어감 + 중복 X
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
@@ -36,9 +37,11 @@ public class A05배낭문제 {
 
         sb.append(dp[k]);
         System.out.println(sb);
-    }*/
 
-    // 호텔 : 백준
+        br.close();
+    }
+
+    /*// 호텔 : 백준
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -78,5 +81,5 @@ public class A05배낭문제 {
         System.out.println(sb);
 
         br.close();
-    }
+    }*/
 }
